@@ -15,14 +15,12 @@ class SumCalculatorTest {
     @Test
     void sumShouldReturn1When1Passed() {
         int actual = sumCalculator.sum(1);
-
         Assertions.assertEquals(1, actual);
     }
 
     @Test
     void sumShouldReturn6When3Passed() {
         int actual = sumCalculator.sum(3);
-
         Assertions.assertEquals(6, actual);
     }
 
